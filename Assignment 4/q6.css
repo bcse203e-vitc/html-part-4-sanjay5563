@@ -1,0 +1,60 @@
+body {
+  min-height: 1200px;
+  background: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.box-static {
+  background: #3498db;
+  color: #fff;
+  padding: 24px;
+  margin: 32px;
+  font-weight: bold;
+  /* Static is default, no position property needed */
+}
+
+.box-fixed {
+  background: #e74c3c;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.wrapper {
+  position: relative;
+  height: 220px;
+  background: #eee;
+  margin: 48px 32px;
+  border: 2px dashed #bbb;
+}
+
+.box-relative {
+  background: #27ae60;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 160px;
+  display: inline-block;
+}
+
+.box-absolute {
+  background: #f1c40f;
+  color: #222;
+  padding: 20px;
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 160px;
+  z-index: 5;
+}

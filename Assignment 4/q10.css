@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f8f8f8;
+}
+
+.header {
+  background: linear-gradient(90deg, #2a4d69 0%, #4bcffa 100%);
+  color: #fff;
+  padding: 48px 0 32px 0;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 2.8em;
+  letter-spacing: 2px;
+  text-shadow: 2px 4px 12px rgba(0,0,0,0.18);
+}
+
+.portfolio-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.images-row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.images-row img {
+  width: 180px;
+  border-radius: 12px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.images-row img:hover {
+  opacity: 1;
+}
+
+.portfolio-btn {
+  background: #2a4d69;
+  color: #fff;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-family: 'Montserrat', Arial, sans-serif;
+  cursor: pointer;
+  margin: 0 12px;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 8px rgba(0,0,0,0.18);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.portfolio-btn:hover {
+  background: #ff6347;
+  transform: scale(1.05);
+}
