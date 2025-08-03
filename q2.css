@@ -1,0 +1,62 @@
+/* Reset and font setup */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header: Hex color */
+header {
+  background-color: #2c3e50; /* dark blue-gray tone */
+  color: white;
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header h3 {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/* Content Section: RGB color */
+.content {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* CTA Button: Named + hex color */
+.cta-button {
+  background-color: #e74c3c; /* reddish-orange */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #c0392b;
+}
+
+/* Footer: Named color */
+footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}

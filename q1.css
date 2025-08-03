@@ -1,0 +1,7 @@
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid green;
+  border-radius: 8px;
+  margin-left: 10px;
+}
